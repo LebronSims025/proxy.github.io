@@ -1,0 +1,56 @@
+/* Place your CSS styles in this file */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+button {
+  background-color:yellow;
+  margin:0 auto;
+}
+
+p {
+  display:none;
+}
+
+body{
+background-color:black;
+}
+
+header  {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #27282e;
+  color: #83f50a;
+  border-bottom: 7px groove red;
+  font-family: 'Lato';
+}
+
+.border {
+    background-color:#021136;
+    border: 5px double cyan;
+    margin:0 auto;
+    padding:20px;
+    border-radius:90px;
+    width:400px;
+}
+button:hover {
+    background-color: #e7e0bc;
+    border-radius: 20px;
+    border:2px solid lime;
+    transition-duration: 1s;
+}
+
+button:active {
+    background-color:purple;
+    border-radius:3px;
+    transition-duration: 1s;
+}
+
+button:after {
+    background-color: yellow;
+}
+
+iframe{
+  max-width:100%;
+  max-height:100%;
+}
